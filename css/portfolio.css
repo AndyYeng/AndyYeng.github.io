@@ -1,0 +1,30 @@
+.profile-img {
+    position: relative;
+    width: 300px;
+}
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    gap: 10px;
+}
+.portfolio-container > div {
+    border: 1px solid black;
+}
+.portfolio-img {
+    height: 200px;
+    max-width: 250px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+}
+.skills-container > div {
+    border: 1px solid black;
+    display: flex;
+}
+.skills-img {
+    max-width: 60px;
+    max-height: 50px;
+}

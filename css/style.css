@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 75px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 75px;
+}
+
+nav > a {
+    color: white;
+}
+
+.nav-img {
+    width: 50px;
+}
+.logo {
+    height: 75px;
+    position: absolute;
+}
+footer {
+    background-color: black;
+    color: white;
+}
